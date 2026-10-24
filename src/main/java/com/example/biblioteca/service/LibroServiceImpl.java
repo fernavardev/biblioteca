@@ -6,7 +6,6 @@ import java.util.Optional;
 
 import org.springframework.stereotype.Service;
 import com.example.biblioteca.repository.LibroRepository;
-import com.example.biblioteca.model.Libro;
 
 @Service
 public class LibroServiceImpl implements LibroService {
