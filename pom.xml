@@ -44,6 +44,25 @@
 			<artifactId>ojdbc17</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+		<!-- Dependencias Oracle Wallet -->
+		<dependency>
+			<groupId>com.oracle.database.security</groupId>
+			<artifactId>oraclepki</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.oracle.database.security</groupId>
+			<artifactId>osdt_cert</artifactId>
+			<version>21.5.0.0</version>
+			<scope>runtime</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>com.oracle.database.security</groupId>
+			<artifactId>osdt_core</artifactId>
+			<version>21.5.0.0</version>
+			<scope>runtime</scope>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa-test</artifactId>
