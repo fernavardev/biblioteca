@@ -1,0 +1,16 @@
+# Archivos compilados
+target/
+
+# Git y entorno de desarrollo
+.git/
+.gitignore
+.idea/
+.vscode/
+
+# Credenciales y wallet Oracle
+.env
+wallet/
+Wallet_*/
+
+# Archivos temporales
+*.log
